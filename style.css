@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%; 
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+/* the styling of header */
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    background-image: linear-gradient(#033747,#012733);
+    position: fixed;  
+    z-index:1;  
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding:0px 30px;
+    color:aliceblue;
+    text-decoration: none;
+}
+nav li a:hover{
+    color:chocolate;
+    transition: all 0.4s ease 0s;
+}
+
+/* the styling of header is finished */
+
+/* the styling of main section of home page starts */
+.home{
+    height:450px;
+    background-color: #033747;
+}
+.side-image{
+    height: 375px;
+    width:600px;
+    float: right;
+    margin-top: 75px;
+}
+.mainh1{
+    color:aliceblue;
+    font-size: 50px;
+    /* text-decoration: solid; */
+    float:left;
+    margin:150px;
+    text-transform: uppercase;
+
+}
+/* the styling of main section of home page finishes */
+
+/* styling section of main page */
+.sec2{
+    height: 750px;
+    width:100%;
+    background-color:rgba(255, 228, 196, 0.459);
+}
+.myphoto{
+    position:sticky;
+    height:400px;
+    width: 400px;
+    float:left;
+    margin-left:30px;
+    z-index:0;
+    
+    border-radius: 80%;
+    filter: drop-shadow(10px 10px 10px #033747);
+
+}
+.sec2list{
+    display: inline-block;
+    list-style: none;
+    color: #033747;
+    text-decoration: none;
+    margin-top:40px;
+    margin-left:150px;
+    
+}
+
+.abouttable{
+    color: #033747;
+    margin-left: 70px;
+    float: right;
+}
+
+.sec3{
+    height:750px;
+    width:100%;
+    background-color: #033747;
+}
+.handhold{
+    height:400px;
+    width:400px;
+    opacity:0.5;
+    float:left;
+    margin-left: 300px;
+
+
+}
