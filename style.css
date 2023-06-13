@@ -99,18 +99,49 @@ nav li a:hover{
     margin-left: 70px;
     float: right;
 }
-
-.sec3{
-    height:750px;
-    width:100%;
-    background-color: #033747;
-}
 .handhold{
     height:400px;
     width:400px;
     opacity:0.5;
     float:left;
     margin-left: 300px;
+}
+.footer{
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+    height: 300px;
+    border-top: 50%;
+    background-image: url(images/footer_yl.gif);
+    background-color: #033747;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.footerh1{
+    color:aliceblue;
+    font-size: 50px;
+    margin:10px;
+}
+.map{
+    float: right;
+    border: aliceblue 1px solid;
 
-
+}
+.footerh1{
+    margin-top: 10px;
+}
+.btn{
+    background-color: #033747;
+    border-radius: 50px;
+    border: 1px;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-outline-secondary{
+    color:gray;
+    border-color: aliceblue;
+}
+.links i{
+    margin-right: 10px;
+    margin-top: 5px;
 }
