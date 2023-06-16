@@ -66,7 +66,7 @@ nav li a:hover{
 }
 /* the styling of main section of home page finishes */
 
-/* styling section of main page */
+/* styling about section of main page */
 .sec2{
     height: 750px;
     width:100%;
@@ -93,10 +93,9 @@ nav li a:hover{
     margin-left:150px;
     
 }
-
-.abouttable{
+.aboutdetails{
     color: #033747;
-    margin-left: 70px;
+    margin-left: 30px;
     float: right;
 }
 .handhold{
@@ -106,11 +105,30 @@ nav li a:hover{
     float:left;
     margin-left: 300px;
 }
+.aboutbuttcont{
+    background-color: #033747;
+    border-radius: 10%;
+    color: aliceblue;
+    padding: 9px 10px;
+    margin-top: 5px;
+}
+.aboutbuttcont a:hover{
+    color:aliceblue;
+}
+.aboutbuttcont:hover{
+    border: 3px solid;
+    border-color: #012733;
+}
+.aboutbuttcont a{
+    color:aliceblue;
+}
+
+/* styling of footer section begins */
 .footer{
     text-align: center;
     color: aliceblue;
     width: 100%;
-    height: 300px;
+    height: 350px;
     border-top: 50%;
     background-image: url(images/footer_yl.gif);
     background-color: #033747;
@@ -118,18 +136,20 @@ nav li a:hover{
     background-size:cover;
 }
 .footerh1{
+    margin-top: 25px;
     color:aliceblue;
     font-size: 50px;
     margin:10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 .map{
     float: right;
     border: aliceblue 1px solid;
 
 }
-.footerh1{
-    margin-top: 10px;
-}
+
 .btn{
     background-color: #033747;
     border-radius: 50px;
@@ -145,11 +165,12 @@ nav li a:hover{
     margin-right: 10px;
     margin-top: 5px;
 }
+
 /* starting with the FAQs section */
 
 .sec3{
     width: 100%;
-    height:550px;
+    height:580px;
     background-color: #012733;
     text-align: center;
 }
@@ -157,6 +178,8 @@ nav li a:hover{
     color: aliceblue;
     text-align: center;
     font-size:50px;
+    margin-top: 10px;
+    padding-top: 25px;
 }
 
 details{
@@ -198,6 +221,8 @@ details{
   details[open] div{
     padding: .5em 1em;
   }
+
+  /* styling the coffe corner */
   .sec4{
     background-color: aliceblue;
     width: 100%;
@@ -224,17 +249,18 @@ details{
     border-radius: 10%;
     color: aliceblue;
     padding: 10px 12px;
-    margin-top: 2px;
+    margin-top: 20px;
   }
-  .sec4 div{
-    padding: 100px;
-    display: inline-block;
-  }
+ 
 .regbutt4:hover {
     background-color:aliceblue;
     color: #012733;
     border: solid 2px;
     border-color: #012733;
 }
+.sec4 div{
+    padding: 100px;
+    display: inline-block;
+  }
  
   
