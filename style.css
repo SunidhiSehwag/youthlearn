@@ -198,3 +198,43 @@ details{
   details[open] div{
     padding: .5em 1em;
   }
+  .sec4{
+    background-color: aliceblue;
+    width: 100%;
+    height: 500px;
+  }
+  .coffeesec4{
+    width:500px;
+    height:500px;
+    float: right;
+  }
+  .sec4 h2{
+    color:#012733;
+    text-transform: capitalize;
+    font-size: 60px;
+  }
+  .sec4 h3{
+    color:#012733;
+    text-transform: capitalize;
+    font-size: 40px;
+  }
+  .regbutt4{
+    background-color: #033747;
+    border: 1px solid;
+    border-radius: 10%;
+    color: aliceblue;
+    padding: 10px 12px;
+    margin-top: 2px;
+  }
+  .sec4 div{
+    padding: 100px;
+    display: inline-block;
+  }
+.regbutt4:hover {
+    background-color:aliceblue;
+    color: #012733;
+    border: solid 2px;
+    border-color: #012733;
+}
+ 
+  
