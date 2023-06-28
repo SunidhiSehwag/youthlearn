@@ -30,9 +30,9 @@ nav li{
     list-style: none;
 }
 nav li a{
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
-    padding:0px 30px;
+    padding:0px 20px;
     color:aliceblue;
     text-decoration: none;
 }
@@ -56,7 +56,7 @@ nav li a:hover{
 }
 .mainh1{
     color:aliceblue;
-    font-size: 60px;
+    font-size: 50px;
     /* text-decoration: solid; */
     float:left;
     margin:150px;
@@ -65,38 +65,7 @@ nav li a:hover{
 }
 /* the styling of main section of home page finishes */
 
-/* styling about section of main page */
-.sec2{
-    height: 550px;
-    width:100%;
-    background-color:rgba(255, 228, 196, 0.459);
-}
-.about-side-image{
-    height: 400px;
-    width: 600px;
-    right: -300px;
-}
-.aboutdetails{
-    color: #033747;
-}
 
-.aboutbuttcont{
-    background-color: #033747;
-    border-radius: 10%;
-    color: aliceblue;
-    padding: 9px 10px;
-    margin-top: 5px;
-}
-.aboutbuttcont a:hover{
-    color:aliceblue;
-}
-.aboutbuttcont:hover{
-    border: 3px solid;
-    border-color: #012733;
-}
-.aboutbuttcont a{
-    color:aliceblue;
-}
 
 /* styling of footer section begins */
 .footer{
@@ -197,7 +166,7 @@ details{
     padding: .5em 1em;
   }
 
-  /* styling the coffe corner */
+  /* styling the coffee corner */
   .sec4{
     background-color: aliceblue;
     width: 100%;
@@ -211,12 +180,12 @@ details{
   .sec4 h2{
     color:#012733;
     text-transform: capitalize;
-    font-size: 60px;
+    font-size: 50px;
   }
   .sec4 h3{
     color:#012733;
     text-transform: capitalize;
-    font-size: 40px;
+    font-size: 30px;
   }
   .regbutt4{
     background-color: #033747;

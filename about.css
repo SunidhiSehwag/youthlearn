@@ -36,17 +36,50 @@ nav .logo p{
 }
 /* styling the about main section */
 .about-section{
+    background-color: antiquewhite;
     height: 700px;
     width:100%;
 }
 .about-side-image{
-    height: 600px;
-    width: 800px;
+    margin: 50px;
+    margin-top: 150px;
     float: right;
+    height: 400px;
+    width: 400px;
 }
 .aboutme{
-    color: #012733;
-    
+    color: #012733;  
+    margin: 50px;
+}
+.about-us{
+    color: #012733;  
+    margin: 50px;
+}
+.nested-list{
+    text-align: center;
+    margin: 30px;
+    margin-top: 80px;
+    list-style: none;
+}
+.nested-list {
+    border: 2px solid #033747;
+}
+.aboutbuttcont{
+    background-color: #033747;
+    border-radius: 10%;
+    color: aliceblue;
+    padding: 9px 10px;
+    margin-top: 5px;
+}
+.aboutbuttcont a:hover{
+    color:aliceblue;
+}
+.aboutbuttcont:hover{
+    border: 3px solid;
+    border-color: #012733;
+}
+.aboutbuttcont a{
+    color:aliceblue;
 }
 
 
