@@ -206,5 +206,13 @@ details{
     padding: 100px;
     display: inline-block;
   }
+#register-here a{
+    color:aliceblue;
+    text-decoration: none;
+}
+#register-here a:hover{
+    color:#012733;
+    text-decoration: underline;
+}
  
   
