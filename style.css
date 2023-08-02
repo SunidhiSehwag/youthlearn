@@ -73,27 +73,17 @@ nav li a:hover{
     color: aliceblue;
     width: 100%;
     height: 350px;
-    border-top: 50%;
     background-image: url(images/footer_yl.gif);
     background-color: #033747;
     background-attachment: fixed;
     background-size:cover;
 }
 .footerh1{
-    margin-top: 25px;
     color:aliceblue;
     font-size: 50px;
-    margin:10px;
     padding-top: 15px;
     padding-bottom: 10px;
-    margin-top: 10px;
 }
-.map{
-    float: right;
-    border: aliceblue 1px solid;
-
-}
-
 .btn{
     background-color: #033747;
     border-radius: 50px;
@@ -120,9 +110,8 @@ nav li a:hover{
 }
 .sec3 h1{
     color: aliceblue;
-    text-align: center;
+    text-align: center important;
     font-size:50px;
-    margin-top: 10px;
     padding-top: 25px;
 }
 
@@ -170,22 +159,25 @@ details{
   .sec4{
     background-color: aliceblue;
     width: 100%;
-    height: 500px;
+    height: 430px;
   }
   .coffeesec4{
-    width:500px;
-    height:500px;
+    width:450px;
+    height:450px;
     float: right;
+    padding-bottom: 30px;
   }
   .sec4 h2{
     color:#012733;
     text-transform: capitalize;
-    font-size: 50px;
+    font-size: 40px;
+    margin-left: 40px;
   }
   .sec4 h3{
     color:#012733;
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 26px;
+    margin-left: 40px;
   }
   .regbutt4{
     background-color: #033747;
@@ -194,6 +186,7 @@ details{
     color: aliceblue;
     padding: 10px 12px;
     margin-top: 20px;
+    margin-left: 40px;
   }
  
 .regbutt4:hover {
