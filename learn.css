@@ -40,15 +40,15 @@ nav .logo p{
 body{
     width: 100%;
     height: 1000px;
-    background-color: #FFD8B1;
+    background-color: #FEF9DA;
 }
-.h1-1{
+h1{
     color: #033748;
     padding: 90px;
     font-size: 50px;
 }
 .tr1 td{
-    color:#012733;
+    color:#033748;
     font-size: 50px;
 }
 table{
